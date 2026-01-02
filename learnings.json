@@ -1,0 +1,354 @@
+[
+  {
+    "file": "1_learning/1_docs/01_вступ.md",
+    "uid": "421de676-5066-4dd5-885b-05ec1c31e509"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/01_перша-програма.md",
+    "uid": "923d8a0d-2cd8-460b-a6e0-5322ff038cab"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/02_визначення-діячів.md",
+    "uid": "a914a3a8-e625-4444-a58a-743a3997ab1e"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/03_створення-дій.md",
+    "uid": "689957cf-b863-4690-8ce9-24cdccf1ec8b"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/04_здійснення-дій.md",
+    "uid": "8598de97-7099-41e8-acbe-e87b27d16704"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/05_створення-структур.md",
+    "uid": "f98cb829-ebae-4126-83b1-93240e7c3252"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/06_створення-предметів.md",
+    "uid": "f390afb6-2fb4-4b03-ab36-e91786e0c9bd"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/07_отримання-властивостей.md",
+    "uid": "a0170f1e-2f52-4887-801d-4ad5456061be"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/08_зміна-властивостей.md",
+    "uid": "cb990b9b-4d7f-4e7a-b3d1-d0ae30ec0024"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/09_отримання-елементів.md",
+    "uid": "db5a6e46-5930-4748-9e77-676feccd5854"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/10_зміна-елементів.md",
+    "uid": "1e635296-c272-4212-9fd9-d35c2800b227"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/11_створення-модулів.md",
+    "uid": "c9b941b7-6c71-449b-8fd2-15b53d97edb0"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/12_створення-чисел.md",
+    "uid": "bbd52b64-cd0d-4090-a474-aff3fdefd90c"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/13_створення-текстів.md",
+    "uid": "5c5792ac-0449-48ca-bbe9-cec867675252"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/14_створення-списків.md",
+    "uid": "dd99a5b1-a2a9-47e8-89ca-d20d96610eda"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/15_створення-словників.md",
+    "uid": "2d5d35ed-76f9-40c4-bb99-f0010e0103b8"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/16_арифметичні-дії.md",
+    "uid": "b4645731-61e9-4e93-80a4-e3326b30b4af"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/17_двійкові-дії.md",
+    "uid": "e74dcdee-167c-4728-b868-da9435b1812b"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/18_дії-порівняння.md",
+    "uid": "c8547cfa-add9-4632-9667-0c210d75d7d1"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/19_запис-умов.md",
+    "uid": "f386ba3e-39e6-4c82-bca0-10b38ae2c563"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/20_запис-повторів.md",
+    "uid": "59fcc2d7-9427-4e7d-9a8f-bcc422bc2166"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/21_запис-переборів.md",
+    "uid": "673af64d-2e58-451b-a0b4-9dae3b0bd90f"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/22_запис-спроб.md",
+    "uid": "c3421a89-30ac-46f9-b9d3-791d75fe711d"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/23_запис-коментарів.md",
+    "uid": "4f5bd41e-07a0-4ae2-993d-072ff1e0c716"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/24_чародії.md",
+    "uid": "fc168eec-3a90-47bf-96e4-98c219bed35a"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/25_зовнішні-модулі.md",
+    "uid": "1668b024-da28-4363-94bb-88ea41d13fb1"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/26_праця-з-паками.md",
+    "uid": "350bee71-05da-4234-b7e8-454139559a37"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/27_діалог.md",
+    "uid": "bf0771d1-c088-4040-b027-791303b2a78c"
+  },
+  {
+    "file": "1_learning/1_docs/02_практика/28_розширення.md",
+    "uid": "579cedd4-dd27-444d-811e-c245dcdf2dd9"
+  },
+  {
+    "file": "1_learning/1_docs/03_теорія/01_стисло-як-працює-мавка.md",
+    "uid": "cc6c7054-6ee1-46a1-966f-82a6264576da"
+  },
+  {
+    "file": "1_learning/1_docs/03_теорія/02_машина-мавки.md",
+    "uid": "bf728bb4-8d9f-41d3-a2de-06083f3f231b"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/01_дійсне.md",
+    "uid": "e2685d69-061f-4a8f-aec9-24a51d01a5c1"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/02_недійсне.md",
+    "uid": "0231170f-032e-4565-b20d-6fd71ae8201b"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/03_Структура.md",
+    "uid": "7d7ae995-7687-4ef1-95b9-b5b0c0584d4b"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/04_Число.md",
+    "uid": "b95608cc-5c7a-4c89-924a-cdd50d4f4191"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/05_Текст.md",
+    "uid": "a0b225a9-ba8d-4b04-bc4b-852bb1fda5fb"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/06_Дія.md",
+    "uid": "ed734903-3ab4-4d3f-b0b0-f29581b21c49"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/07_Список.md",
+    "uid": "c5cca62b-3ce9-4275-b137-29b47fc48086"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/08_Словник.md",
+    "uid": "247bb779-eabd-47bd-8099-76d3ea5e943f"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/09_Модуль.md",
+    "uid": "4296dc24-3943-4f61-9f49-aaaca4fa0c46"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/10_Дані.md",
+    "uid": "2d65e285-4772-4090-b541-87a1a3192a98"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/11_ДіапазонЧисел.md",
+    "uid": "14bb1318-723f-4599-bf87-de06f9706036"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/12_Код.md",
+    "uid": "7cf71890-d96e-486d-9c8d-92d8a7e3d6a2"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/13_Параметр.md",
+    "uid": "1b6d2d81-94fa-48f0-9422-9e3b76c1ddbb"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/14_ПеребірДаних.md",
+    "uid": "e94bae3d-4387-4de9-acef-16d1adbec7c7"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/15_ПеребірДіапазонуЧисел.md",
+    "uid": "4f4bda1c-062d-454b-84ff-c725e8e03437"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/16_ПеребірПослідовності.md",
+    "uid": "cc88294f-5e82-4651-9211-909c72408f9c"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/17_ПеребірСловника.md",
+    "uid": "a508573d-da8b-4cbc-ba8a-05d0afbd1e08"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/18_ПеребірСписку.md",
+    "uid": "feeae3c6-5e3d-4d6c-ba14-c401a6c15f93"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/19_ПеребірТексту.md",
+    "uid": "0ecdeee6-48e6-4546-8de2-a65ca2662a86"
+  },
+  {
+    "file": "1_learning/1_docs/04_глобальні/20_Послідовність.md",
+    "uid": "695cdbdd-fc6f-4f1f-b19a-8ecc182fd2f0"
+  },
+  {
+    "file": "1_learning/1_docs/05_бібліотека/01_читати.md",
+    "uid": "c5ac2223-aa94-453c-8d6f-72aec7f06dd7"
+  },
+  {
+    "file": "1_learning/1_docs/05_бібліотека/02_вступ-до-бібліотеки.md",
+    "uid": "7774aba3-fae6-446b-9e2a-750b560af772"
+  },
+  {
+    "file": "1_learning/1_docs/05_бібліотека/03_планувальник.md",
+    "uid": "ec9f25ef-803b-4b0f-98b0-a5625b8a6fbc"
+  },
+  {
+    "file": "1_learning/1_docs/05_бібліотека/04_інтернет.md",
+    "uid": "6f84ff51-0629-4ac9-8085-2793b07737b2"
+  },
+  {
+    "file": "1_learning/1_docs/05_бібліотека/05_математика.md",
+    "uid": "eebecc21-073d-4a4d-8ffc-5025cd3f57ce"
+  },
+  {
+    "file": "1_learning/1_docs/06_кінець/01_подяка.md",
+    "uid": "527eb5dc-19fd-4770-ad69-04b888545b46"
+  },
+  {
+    "file": "1_learning/1_docs/06_кінець/02_післясцена.md",
+    "uid": "555e7af4-a192-42cc-852e-38885bde4f59"
+  },
+  {
+    "file": "1_learning/1_docs/06_кінець/03_автор.md",
+    "uid": "1e822d52-97a8-43b5-98a3-74fa0e09e815"
+  },
+  {
+    "file": "1_learning/1_docs/07_ідея.md",
+    "uid": "f968fe61-a9ac-4c15-a38c-7905dcdba90f"
+  },
+  {
+    "file": "1_learning/2_algorithms/003_Алгоритм_вареничного_балансу.md",
+    "uid": "66cd81e8-0368-4e44-8761-d092b3efa679"
+  },
+  {
+    "file": "1_learning/2_algorithms/006_Алгоритм_часникової_пампушки.md",
+    "uid": "5f089344-5125-42e3-b8c2-e63d3ba6b681"
+  },
+  {
+    "file": "1_learning/2_algorithms/012_Алгоритм_сервізної_недоторканності.md",
+    "uid": "b62bcda1-c63d-41c7-a3e2-29fb4f60201a"
+  },
+  {
+    "file": "1_learning/2_algorithms/018_Алгоритм_бабусиної_порції.md",
+    "uid": "71376d11-bfad-4ecc-a6b5-56a825187940"
+  },
+  {
+    "file": "1_learning/2_algorithms/019_Алгоритм_шкварчання_шкварок.md",
+    "uid": "e494a4a9-2544-4de7-9ae6-9ed7be962d6d"
+  },
+  {
+    "file": "1_learning/2_algorithms/031_Алгоритм_курочка_по_зернятку.md",
+    "uid": "5a01784e-c785-4444-9437-d91e1be170c9"
+  },
+  {
+    "file": "1_learning/2_algorithms/034_Алгоритм_на_безрибї_і_рак_риба.md",
+    "uid": "ffc0f951-5365-45eb-b00a-e6b2b6552dd2"
+  },
+  {
+    "file": "1_learning/2_algorithms/052_Алгоритм_соняшникового_поля.md",
+    "uid": "cba1d815-74ec-44da-afa5-073452163224"
+  },
+  {
+    "file": "1_learning/2_algorithms/064_Алгоритм_купальського_стрибка.md",
+    "uid": "b76dc819-0d95-4939-a421-dc5e042a4400"
+  },
+  {
+    "file": "1_learning/2_algorithms/071_Алгоритм_святкової_куті.md",
+    "uid": "403e6889-8fbf-425d-b8c5-1de975f70335"
+  },
+  {
+    "file": "1_learning/3_nuances/00_огляд.md",
+    "uid": "83599516-efec-4ff6-89c0-84a73ee78c32"
+  },
+  {
+    "file": "1_learning/3_nuances/01_оператор_та.md",
+    "uid": "1bdb05f9-0e32-4c55-ba71-560bf254b856"
+  },
+  {
+    "file": "1_learning/3_nuances/02_повернення_в_циклах.md",
+    "uid": "36ce7b03-a076-4502-a5af-f6967cf90e89"
+  },
+  {
+    "file": "1_learning/3_nuances/03_синтаксис_циклу.md",
+    "uid": "8666e3b9-b862-4c70-9137-9de5c4db7d4f"
+  },
+  {
+    "file": "1_learning/3_nuances/04_математика_в_порівняннях.md",
+    "uid": "c0313501-0dea-404f-8d26-7adc7a7e6b70"
+  },
+  {
+    "file": "1_learning/3_nuances/05_арифметика_в_поверненні.md",
+    "uid": "a8f73052-b9b9-4e8d-aa66-77a78bbf6db7"
+  },
+  {
+    "file": "1_learning/3_nuances/06_нестабільність_ділення.md",
+    "uid": "4d61f14d-b71f-4f8b-a268-7b8618c55e16"
+  },
+  {
+    "file": "1_learning/3_nuances/07_граничні_значення.md",
+    "uid": "c558eef5-6370-42b7-a5ae-04437588514d"
+  },
+  {
+    "file": "1_learning/3_nuances/08_ділення_з_округленням.md",
+    "uid": "0a451a92-ce46-4fa0-9034-0f2903d9254f"
+  },
+  {
+    "file": "1_learning/3_nuances/09_порівняння_у_вкладених_умовах.md",
+    "uid": "c6ffdda0-68fd-41ce-b8f8-85471c47c7ed"
+  },
+  {
+    "file": "1_learning/3_nuances/10_неявні_повернення.md",
+    "uid": "806834c8-8c5b-42f3-9ab0-e9711cd8da61"
+  },
+  {
+    "file": "1_learning/3_nuances/11_аномалія_підрахунку.md",
+    "uid": "eaf02d87-f791-48cc-b581-393733ee5050"
+  },
+  {
+    "file": "1_learning/3_nuances/12_повернення_без_інакше.md",
+    "uid": "815c6ac4-64fb-4f1e-93df-abb5cd8f0b43"
+  },
+  {
+    "file": "1_learning/3_nuances/13_тире_ламає_парсер.md",
+    "uid": "15b4ddc5-5b4f-494e-8f34-83695c7c2cea"
+  },
+  {
+    "file": "1_learning/3_nuances/14_не_кириличні_символи.md",
+    "uid": "e16b9ee1-fd22-43e8-88cb-7d55ee120401"
+  },
+  {
+    "file": "1_learning/3_nuances/15_розмір_списку.md",
+    "uid": "46611d67-c372-4186-a77c-e81b533f8180"
+  },
+  {
+    "file": "1_learning/3_nuances/16_латинські_символи_заборонені.md",
+    "uid": "e433b864-1058-45db-9f74-5060f52d85a5"
+  },
+  {
+    "file": "1_learning/3_nuances/17_стандартна_бібліотека_ненадійна.md",
+    "uid": "5f84227b-b6e2-47ce-9787-9c14c6ab783b"
+  }
+]
