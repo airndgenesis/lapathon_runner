@@ -3,7 +3,7 @@ import { OTLPTraceExporter } from '@opentelemetry/exporter-trace-otlp-proto'
 import { NodeTracerProvider, SimpleSpanProcessor } from '@opentelemetry/sdk-trace-node'
 import { env } from 'bun'
 
-// Шляї до мавки (через env)
+// Шлях до мавки (через env)
 export const mavkaPath = env.MAVKA_PATH || '/Users/mark/мавка'
 
 // Посилання на агента (через env)
