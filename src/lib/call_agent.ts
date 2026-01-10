@@ -1,5 +1,5 @@
 import z from 'zod'
-import { agentTimeoutMs, AgentUrl } from '../conf'
+import { AgentUrl, agentTimeoutMs } from '../conf'
 
 const expectedServerOutput = z.object({
   response: z.string(),

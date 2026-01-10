@@ -1,4 +1,4 @@
-import { type Context, SpanStatusCode, context, trace } from '@opentelemetry/api'
+import { type Context, context, SpanStatusCode, trace } from '@opentelemetry/api'
 import { Listr } from 'listr2'
 import { nanoid } from 'nanoid'
 import runs from '../2_runs.json'

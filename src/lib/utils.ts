@@ -1,4 +1,4 @@
-import { type Context, type Span, SpanStatusCode, context } from '@opentelemetry/api'
+import { type Context, context, type Span, SpanStatusCode } from '@opentelemetry/api'
 import { tracer } from '../conf'
 
 export type SpanAttrs = Record<string, string | number | boolean>
