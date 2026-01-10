@@ -17,7 +17,7 @@ export const agentTimeoutMs = 20_000
 // TODO: змініть це на вашу модель фідбеку, або зробіть `disableFeedback = true`
 // Протестувати можна через `console.log(await llmFeedback.invoke('Привіт'))`
 export const disableFeedback = false
-export const llmFeedback = new AzureChatOpenAI({
+export const llmFeedback = () => new AzureChatOpenAI({
   model: 'gpt-4.1',
   maxRetries: 3,
   timeout: 30 * 1000, // 30 seconds

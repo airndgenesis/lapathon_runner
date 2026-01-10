@@ -54,6 +54,6 @@ Do not mention general things that are not directly relevant to the user's mista
 Return only your concise feedback in Ukrainian and nothing else.
 `
 
-  const feedback = await llmFeedback.invoke(prompt)
+  const feedback = await llmFeedback().invoke(prompt)
   return feedback.text
 }
