@@ -7,8 +7,8 @@
 1. [Встановити bun](https://bun.com/docs/installation)
 2. Виконати `bun install` в папці репозиторію, щоби встановити залежності
 3. [Встановити Мавку 0.124.1](https://xn--80ae5bu9f.xn--80aaf6ah.xn--j1amh/%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA-%D0%BC%D0%B0%D0%B2%D0%BA%D0%B8-0.124.1.html) -- завантажити executable, й вказати шлях до нього в `.env` (приклад `.env` файлу нижче)
-4. В `src/conf.ts` замінити `llmFeedback` на власну LLM-ку для генерування фідбеку (це може бути й сама Lapa LLM, проте в межах фінального оцінюваня ми будемо використовувати `gpt-5-mini medium`)
-5. Опційно -- запустити локально [Arize Phoenix](https://arize.com/docs/phoenix/get-started#run-phoenix-using-docker) для зручно перегляду трейсів
+4. В `src/conf.ts` замінити `llmFeedback` на власну LLM-ку для генерування фідбеку (це може бути й сама Lapa LLM, проте в межах фінального оцінюваня ми будемо використовувати `gpt-4.1`)
+5. Опційно -- запустити локально [Arize Phoenix](https://arize.com/docs/phoenix/get-started#run-phoenix-using-docker) для зручно перегляду результатів кожного тесту
 
 Приклад `.env` файлу:
 ```
