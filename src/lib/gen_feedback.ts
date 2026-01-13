@@ -22,6 +22,8 @@ The algorithm a user's code should be implementing:
 ${algorithmText}
 </algorithm>
 
+Note: The user's algorithm should be just a single function named exactly \`алгоритм\` -- with no other instructions (like printing). This is a prerequisite of the testing framework.
+
 The user's implementation:
 <user_code>
 ${userImplementation}
