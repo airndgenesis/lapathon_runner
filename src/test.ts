@@ -36,7 +36,7 @@ for (let i = 0; i < total; i++) {
 
         const parentContext = trace.setSpan(context.active(), parentSpan)
 
-        const prompt = `Реалізуй наведений нижче алгоритм мовою програмування Мавка\n\n${run.private.algorithmPlain}\n\n\n\nВідповіддю має бути єдине повідомлення у форматі:\n\`\`\`mavka\n<ваш код тут>\n\`\`\` без зайвих пояснень`
+        const prompt = `Реалізуй наведений нижче алгоритм мовою програмування Мавка\n\n${run.private.algorithmPlain}\n\n\n\nКод повинен реалізовувати єдину функцію з назвою "алгоритм" -- без будь-яких інших інструкцій (як-от друк)\n\n\nВідповіддю має бути єдине повідомлення у форматі:\n\`\`\`mavka\n<ваш код тут>\n\`\`\` без зайвих пояснень`
 
         let output!: string
         let code!: string
