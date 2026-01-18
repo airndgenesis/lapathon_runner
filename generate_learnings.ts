@@ -1,9 +1,19 @@
 import { randomUUID } from 'node:crypto'
 import { readdirSync, statSync, writeFileSync } from 'node:fs'
 import { join, relative } from 'node:path'
+import { runs } from './src/conf'
+
+// Extract unique algorithm numbers from runs
+function getAlgorithmNumbersFromRuns(): Set<number> {
+  const numbers = new Set<number>()
+  for (const run of runs) {
+    numbers.add(run.algorithm.number)
+  }
+  return numbers
+}
 
 // Recursively get all markdown files from a directory tree
-function getAllMarkdownFilesRecursive(dir: string, baseDir: string): string[] {
+function getAllMarkdownFilesRecursive(dir: string, baseDir: string, allowedAlgorithmNumbers: Set<number>): string[] {
   const results: string[] = []
 
   try {
@@ -14,18 +24,18 @@ function getAllMarkdownFilesRecursive(dir: string, baseDir: string): string[] {
       const stat = statSync(fullPath)
 
       if (stat.isDirectory()) {
-        results.push(...getAllMarkdownFilesRecursive(fullPath, baseDir))
+        results.push(...getAllMarkdownFilesRecursive(fullPath, baseDir, allowedAlgorithmNumbers))
       } else if (entry.endsWith('.md')) {
         // Store relative path instead of absolute
         const relativePath = relative(baseDir, fullPath)
 
-        // Filter out algorithm files with numbers > 100
+        // Filter algorithm files to only include those mentioned in runs
         if (relativePath.includes('2_algorithms')) {
           const match = entry.match(/^(\d+)_/)
           if (match?.[1]) {
             const fileNumber = parseInt(match[1], 10)
-            if (fileNumber > 100) {
-              continue // Skip files with numbers > 100 in algorithms folder
+            if (!allowedAlgorithmNumbers.has(fileNumber)) {
+              continue // Skip algorithm files not mentioned in runs
             }
           }
         }
@@ -45,9 +55,13 @@ function collectLearningFiles(): string[] {
   const projectRoot = process.cwd()
   const baseDir = join(projectRoot, '1_learning')
 
+  // Get allowed algorithm numbers from runs
+  const allowedAlgorithmNumbers = getAlgorithmNumbersFromRuns()
+  console.log(`Allowed algorithm numbers: ${[...allowedAlgorithmNumbers].sort((a, b) => a - b).join(', ')}`)
+
   // Get all markdown files recursively and sort them
   // The numeric prefixes in directory and file names ensure correct ordering
-  const files = getAllMarkdownFilesRecursive(baseDir, projectRoot)
+  const files = getAllMarkdownFilesRecursive(baseDir, projectRoot, allowedAlgorithmNumbers)
   files.sort()
 
   return files

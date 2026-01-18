@@ -44,3 +44,17 @@ const otelProvider = new NodeTracerProvider({
 otelProvider.register()
 
 export const tracer = otelProvider.getTracer('mavka-runner')
+
+// публічний бенчмарк (40 тестів)
+import { default as runs_public } from '../2_runs.json'
+
+// приватний бенчмарк (80 тестів)
+import { default as runs_private } from '../2_runs_private.json'
+
+// повний бенчмарк (400 тестів)
+import { default as runs_private_full } from '../2_runs_private_full.json'
+
+// Після заміни -- обовʼязково запустити `bun generate_learnings.ts` для перегенерації плану навчання
+export const runs = runs_private_full
+// export const runs = runs_private
+// export const runs = runs_private_full
